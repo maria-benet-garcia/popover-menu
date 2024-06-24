@@ -1,0 +1,48 @@
+.hover-menu {
+  position: relative;
+  background-color: white;
+  border: 1px solid gray;
+  list-style-type: none;
+  padding: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 100%;
+}
+
+.submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 120px; /* Adjust width as needed */
+  background-color: #f0f0f0; /* Example background color */
+  border: 1px solid #ccc; /* Example border */
+}
+
+.submenu-item {
+  position: relative;
+}
+
+.hover-item {
+  position: relative;
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  padding: 8px 12px; /* Adjust padding as needed */
+  color: #333; /* Set text color */
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 4px; /* Add border radius for rounded corners */
+}
+
+.hover-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hover-menu li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hover-menu li:hover {
+  background-color: #333;
+  color: lime;
+}
